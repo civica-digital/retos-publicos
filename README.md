@@ -14,11 +14,13 @@ Retos Públicos
 4. rails server
 
 Para crear una organización:
-  rails console
-  user = User.new(email: "username@domain", password: "some_password")
-  organization = Organization.new(slug: "url_shortcut") # ej. my-organization
-  user.userable = organization
-  user.save
+``` ruby
+rails console
+user = User.new(email: "username@domain", password: "some_password")
+organization = Organization.new(slug: "url_shortcut") # ej. my-organization
+user.userable = organization
+user.save
+```
 
 ##Demo
 Puedes visualizar un demo en la aplicación de [retos](http://retos.datos.gob.mx/)
