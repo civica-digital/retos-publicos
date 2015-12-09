@@ -6,7 +6,7 @@ GIT
       rest-client (~> 1.6.0)
 
 GIT
-  remote: git://github.com/acrogenesis/jquery-tokeninput-rails.git
+  remote: git://github.com/acrogenesis-lab/jquery-tokeninput-rails.git
   revision: e9e8ac23cb961b47931d6f26d68c24993457d5dc
   specs:
     jquery-tokeninput-rails (1.6.2)
